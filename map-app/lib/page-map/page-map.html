@@ -6,6 +6,7 @@
 <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 <script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="/static/map_app-1.0.0.js"></script>
 <link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
 <style>
   body { margin:0; padding:0; }
@@ -80,6 +81,7 @@ map.on('moveend',function() {
 });
 console.log(featureLayer.getGeoJSON());
 </script>
+<!--
 <script>
 function toggleFilter() {
 	console.log('test');
@@ -110,6 +112,6 @@ $.getJSON('/pointTypes')
 		};
 	});
 </script>
-
+-->
 </body>
 </html>
